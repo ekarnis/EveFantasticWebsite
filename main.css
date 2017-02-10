@@ -1,0 +1,216 @@
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+    background-color: #f7c9bf;
+    width:100vw;
+    height:100vh;
+}
+
+#about{
+    background-image: url("PNGs/home/EveFan_HOME_WashroomWall_layout_About1.png");
+    background-size: 100% 100%;
+}
+
+#buy_a_copy{
+    background-image: url("PNGs/home/EveFan_HOME_WashroomWall_layout_Buy1.png");
+    background-size: 100% 100%;
+}
+
+#cast_and_crew{
+    background-image: url("PNGs/home/EveFan_HOME_WashroomWall_layout_Cast_Crew1.png");
+    background-size: 100% 100%;
+}
+
+#contact{
+    background-image: url("PNGs/home/EveFan_HOME_WashroomWall_layout_Contact1.png");
+    background-size: 100% 100%;
+}
+
+#episodes{
+    background-image: url("PNGs/home/EveFan_HOME_WashroomWall_layout_Epi1.png");
+    background-size: 100% 100%;
+}
+
+#hair{
+    background-image: url("PNGs/home/EveFan_HOME_WashroomWall_layout_BlueHair2.png");
+    background-size: 100% 100%;
+}
+
+#lets_begin{
+    background-image: url("PNGs/home/EveFan_HOME_WashroomWall_layout_LetsBegin1.png");
+    background-size: 100% 100%;
+}
+
+@media only screen and (orientation: portrait) {
+	.M_E_T_A_box{
+        display: flex;
+        flex-shrink: 0;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        align-content: center;
+        align-items: stretch;
+        width:100vw;
+        height:100vh;
+    }
+    .box{
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-around;
+        align-content: center;
+        align-items: center;
+        width:30vw;
+        height:100vh;
+    }
+    #about{
+	    width:26vw;
+	    height:13vw;
+	}
+
+	#buy_a_copy{
+	    width:26vw;
+	    height:13vw;
+	}
+
+	#cast_and_crew{
+	    width:26vw;
+	    height:13vw;
+	}
+
+	#contact{
+	    width:26vw;
+	    height:13vw;
+	}
+
+	#episodes{
+	    width:26vw;
+	    height:13vw;
+	}
+
+	#lets_begin{
+	    width:26vw;
+	    height:13vw;
+	}
+
+	#hair{
+    	width: 40vw;
+    	height: 65vw;
+	}
+}
+
+@media only screen and (orientation: landscape) {
+	.box{
+	    display: flex;
+	    flex-flow: column nowrap;
+	    justify-content: center;
+	    align-content: center;
+	    align-items: center;
+	    width:100vw;
+	    height:100vh;
+	    z-index: 1;
+	}
+
+	#b1{
+		width: 0vw;
+    	height: 0vw;
+	}
+
+	#b3{
+		width: 0vw;
+    	height: 0vw;
+	}
+
+	#about{
+	    width:16vw;
+	    height:8vw;
+	    top: 15vh;
+	    left: 70vw;
+	    position: absolute;
+	}
+
+	#buy_a_copy{
+	    width:16vw;
+	    height:8vw;
+	    top: 60vh;
+	    left: 20vw;
+	    position: absolute;
+	}
+
+	#cast_and_crew{
+	    width:16vw;
+	    height:8vw;
+	    top: 20vh;
+	    left: 15vw;
+	    position: absolute;
+	}
+
+	#contact{
+	    width:16vw;
+	    height:8vw;
+	    top: 40vh;
+	    left: 77vw;
+	    position: absolute;
+	}
+
+	#episodes{
+	    width:16vw;
+	    height:8vw;
+	    top: 70vh;
+	    left: 60vw;
+	    position: absolute;
+	}
+
+	#lets_begin{
+	    width:16vw;
+	    height:8vw;
+	}
+
+	#hair{
+    	width: 16vw;
+    	height: 26vw;
+	}
+
+	.box_top_and_bottom{
+	    position: absolute;
+	    display: flex;
+	    flex-flow: column nowrap;
+	    justify-content: space-between;
+	    align-content: center;
+	    align-items: center;
+	    width:100vw;
+	    height:100vh;
+	    z-index: 1;
+	}
+
+	#top{
+	    width: 100vw;
+	    height: 40vw;
+	}
+
+	#bottom{
+	    width: 100vw;
+	    height: 40vw;
+	}
+
+	.box_left_and_right{
+	    position: absolute;
+	    display: flex;
+	    flex-flow: row nowrap;
+	    justify-content: space-between;
+	    align-content: center;
+	    align-items: center;
+	    width:100vw;
+	    height:100vh;
+	    z-index: 1;
+	}
+
+	#left{
+	    width: 40vw;
+	    height: 100vw;
+	}
+
+	#right{
+	    width: 40vw;
+	    height: 100vw;
+	}
+}
+
