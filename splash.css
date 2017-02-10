@@ -1,0 +1,66 @@
+body {
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+.box{
+	position: absolute;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    width:100vw;
+    height:100vh;
+    z-index: 1;
+}
+
+#top{
+    width:100vw;
+    height:50vh;
+    background-color: #fb9780;
+}
+
+#bottom{
+    width:100vw;
+    height:50vh;
+    background-color: #a9d9dd;
+}
+
+#stalls{
+	background-image: url("PNGs/splash/EveFan_Webpage_1_WashroomStalls_Stalls.png");
+	background-size: 100% 100%;
+	width: 100vw;
+}
+
+#open{
+	background-image: url("PNGs/splash/EveFan_Webpage_1_WashroomStalls_Open1.png");
+	background-size: 100% 100%;
+	position: absolute;
+    z-index: 2;
+}
+
+#open:hover {
+    filter: brightness(0) invert(1);
+}
+
+@media only screen and (orientation: portrait) {
+	#open{
+		width:30vw;
+		height:15vw;
+		top: 40vh;
+		left: 54vw;
+	}
+	#stalls{
+		background-image: url("PNGs/splash/EveFan_Webpage_1_WashroomStalls_Stalls_mobile.png");
+	}
+}
+
+@media only screen and (orientation: landscape) {
+	#open{
+		width:15vw;
+		height:7.5vw;
+		top: 40vh;
+		left: 52vw;
+	}
+}
