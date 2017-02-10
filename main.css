@@ -11,8 +11,18 @@ body {
     background-size: 100% 100%;
 }
 
+#about_purp{
+    background-image: url("PNGs/home/EveFan_HOME_WashroomWall_layout_About2.png");
+    background-size: 100% 100%;
+}
+
 #buy_a_copy{
     background-image: url("PNGs/home/EveFan_HOME_WashroomWall_layout_Buy1.png");
+    background-size: 100% 100%;
+}
+
+#buy_a_copy_purp{
+    background-image: url("PNGs/home/EveFan_HOME_WashroomWall_layout_Buy2.png");
     background-size: 100% 100%;
 }
 
@@ -21,13 +31,28 @@ body {
     background-size: 100% 100%;
 }
 
+#cast_and_crew_purp{
+    background-image: url("PNGs/home/EveFan_HOME_WashroomWall_layout_Cast_Crew2.png");
+    background-size: 100% 100%;
+}
+
 #contact{
     background-image: url("PNGs/home/EveFan_HOME_WashroomWall_layout_Contact1.png");
     background-size: 100% 100%;
 }
 
+#contact_purp{
+    background-image: url("PNGs/home/EveFan_HOME_WashroomWall_layout_Contact2.png");
+    background-size: 100% 100%;
+}
+
 #episodes{
     background-image: url("PNGs/home/EveFan_HOME_WashroomWall_layout_Epi1.png");
+    background-size: 100% 100%;
+}
+
+#episodes_purp{
+    background-image: url("PNGs/home/EveFan_HOME_WashroomWall_layout_Epi2.png");
     background-size: 100% 100%;
 }
 
@@ -40,6 +65,12 @@ body {
     background-image: url("PNGs/home/EveFan_HOME_WashroomWall_layout_LetsBegin1.png");
     background-size: 100% 100%;
 }
+
+#lets_begin_purp{
+    background-image: url("PNGs/home/EveFan_HOME_WashroomWall_layout_LetsBegin2.png");
+    background-size: 100% 100%;
+}
+
 
 @media only screen and (orientation: portrait) {
 	.M_E_T_A_box{
@@ -65,32 +96,73 @@ body {
 	    width:26vw;
 	    height:13vw;
 	}
-
+	#about_purp{
+	    width:26vw;
+	    height:13vw;
+	    top: 4vh;
+	    left: 71.5vw;
+	    position: absolute;   		
+	}
 	#buy_a_copy{
 	    width:26vw;
 	    height:13vw;
 	}
-
+	#buy_a_copy_purp{
+	    width:26vw;
+	    height:13vw;
+	    top: 37vh;
+	    left: 1.5vw;
+	    position: absolute;   		    
+	}	
 	#cast_and_crew{
 	    width:26vw;
 	    height:13vw;
 	}
-
+	#cast_and_crew_purp{
+	    width:26vw;
+	    height:13vw;
+	    top: 37vh;
+	    left: 1.5vw;
+	    position: absolute;   		    
+	}	
 	#contact{
 	    width:26vw;
 	    height:13vw;
 	}
-
+	#contact_purp{
+	    width:26vw;
+	    height:13vw;
+	    top: 27vh;
+	    left: 72.5vw;
+	    position: absolute;   		    
+	}
 	#episodes{
 	    width:26vw;
 	    height:13vw;
 	}
-
+	#episodes_purp{
+	    width:26vw;
+	    height:13vw;
+	    top: 51vh;
+	    left: 72.8vw;
+	    position: absolute;   		    
+	}	
 	#lets_begin{
 	    width:26vw;
 	    height:13vw;
+	    width:26vw;
+	    height:13vw;
+	    top: 61.5vh;
+	    left: 37vw;
+	    position: absolute; 
 	}
-
+	#lets_begin_purp{
+	    width:26vw;
+	    height:13vw;
+	    top: 61.5vh;
+	    left: 36.5vw;
+	    position: absolute;   		    
+	}	
 	#hair{
     	width: 40vw;
     	height: 65vw;
@@ -127,11 +199,27 @@ body {
 	    position: absolute;
 	}
 
+	#about_purp{
+	    width:16vw;
+	    height:8vw;
+	    top: 15vh;
+	    left: 70.2vw;
+	    position: absolute;
+	}
+
 	#buy_a_copy{
 	    width:16vw;
 	    height:8vw;
 	    top: 60vh;
 	    left: 20vw;
+	    position: absolute;
+	}
+
+	#buy_a_copy_purp{
+	    width:16vw;
+	    height:8vw;
+	    top: 60vh;
+	    left: 20.2vw;
 	    position: absolute;
 	}
 
@@ -143,11 +231,27 @@ body {
 	    position: absolute;
 	}
 
+	#cast_and_crew_purp{
+	    width:16vw;
+	    height:8vw;
+	    top: 20vh;
+	    left: 15.2vw;
+	    position: absolute;
+	}
+
 	#contact{
 	    width:16vw;
 	    height:8vw;
 	    top: 40vh;
 	    left: 77vw;
+	    position: absolute;
+	}
+
+	#contact_purp{
+	    width:16vw;
+	    height:8vw;
+	    top: 39.5vh;
+	    left: 77.3vw;
 	    position: absolute;
 	}
 
@@ -159,9 +263,25 @@ body {
 	    position: absolute;
 	}
 
+	#episodes_purp{
+	    width:16vw;
+	    height:8vw;
+	    top: 70.1vh;
+	    left: 60.4vw;
+	    position: absolute;
+	}
+X
 	#lets_begin{
 	    width:16vw;
 	    height:8vw;
+	}
+
+	#lets_begin_purp{
+	    width:16vw;
+	    height:8vw;
+	    top: 58.1vh;
+	    left: 41.8vw;
+	    position: absolute;
 	}
 
 	#hair{
