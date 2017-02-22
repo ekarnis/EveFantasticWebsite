@@ -5,72 +5,61 @@ body {
     width:100vw;
     height:100vh;
 }
+a{
+	background-size: 100% 100%;
+}
 
 #about{
     background-image: url("PNGs/home/EveFan_HOME_WashroomWall_layout_About1.png");
-    background-size: 100% 100%;
 }
 
 #about_purp{
     background-image: url("PNGs/home/EveFan_HOME_WashroomWall_layout_About2.png");
-    background-size: 100% 100%;
 }
 
 #buy_a_copy{
     background-image: url("PNGs/home/EveFan_HOME_WashroomWall_layout_Buy1.png");
-    background-size: 100% 100%;
 }
 
 #buy_a_copy_purp{
     background-image: url("PNGs/home/EveFan_HOME_WashroomWall_layout_Buy2.png");
-    background-size: 100% 100%;
 }
 
 #cast_and_crew{
     background-image: url("PNGs/home/EveFan_HOME_WashroomWall_layout_Cast_Crew1.png");
-    background-size: 100% 100%;
 }
 
 #cast_and_crew_purp{
     background-image: url("PNGs/home/EveFan_HOME_WashroomWall_layout_Cast_Crew2.png");
-    background-size: 100% 100%;
 }
 
 #contact{
     background-image: url("PNGs/home/EveFan_HOME_WashroomWall_layout_Contact1.png");
-    background-size: 100% 100%;
 }
 
 #contact_purp{
     background-image: url("PNGs/home/EveFan_HOME_WashroomWall_layout_Contact2.png");
-    background-size: 100% 100%;
 }
 
 #episodes{
     background-image: url("PNGs/home/EveFan_HOME_WashroomWall_layout_Epi1.png");
-    background-size: 100% 100%;
 }
 
 #episodes_purp{
     background-image: url("PNGs/home/EveFan_HOME_WashroomWall_layout_Epi2.png");
-    background-size: 100% 100%;
 }
 
 #hair{
     background-image: url("PNGs/home/EveFan_HOME_WashroomWall_layout_BlueHair2.png");
-    background-size: 100% 100%;
 }
 
 #lets_begin{
     background-image: url("PNGs/home/EveFan_HOME_WashroomWall_layout_LetsBegin1.png");
-    background-size: 100% 100%;
 }
 
 #lets_begin_purp{
     background-image: url("PNGs/home/EveFan_HOME_WashroomWall_layout_LetsBegin2.png");
-    background-size: 100% 100%;
 }
-
 
 @media only screen and (orientation: portrait) {
 	.M_E_T_A_box{
@@ -92,73 +81,41 @@ body {
         width:30vw;
         height:100vh;
     }
-    #about{
+    a{
 	    width:26vw;
-	    height:13vw;
-	}
+	    height:13vw;     	
+    }    
 	#about_purp{
-	    width:26vw;
-	    height:13vw;
 	    top: 4vh;
 	    left: 71.5vw;
 	    position: absolute;   		
 	}
-	#buy_a_copy{
-	    width:26vw;
-	    height:13vw;
-	}
 	#buy_a_copy_purp{
-	    width:26vw;
-	    height:13vw;
 	    top: 37vh;
 	    left: 1.5vw;
 	    position: absolute;   		    
 	}	
-	#cast_and_crew{
-	    width:26vw;
-	    height:13vw;
-	}
 	#cast_and_crew_purp{
-	    width:26vw;
-	    height:13vw;
 	    top: 37vh;
 	    left: 1.5vw;
 	    position: absolute;   		    
 	}	
-	#contact{
-	    width:26vw;
-	    height:13vw;
-	}
 	#contact_purp{
-	    width:26vw;
-	    height:13vw;
 	    top: 27vh;
 	    left: 72.5vw;
 	    position: absolute;   		    
 	}
-	#episodes{
-	    width:26vw;
-	    height:13vw;
-	}
 	#episodes_purp{
-	    width:26vw;
-	    height:13vw;
 	    top: 51vh;
 	    left: 72.8vw;
 	    position: absolute;   		    
 	}	
 	#lets_begin{
-	    width:26vw;
-	    height:13vw;
-	    width:26vw;
-	    height:13vw;
 	    top: 61.5vh;
 	    left: 37vw;
 	    position: absolute; 
 	}
 	#lets_begin_purp{
-	    width:26vw;
-	    height:13vw;
 	    top: 61.5vh;
 	    left: 36.5vw;
 	    position: absolute;   		    
@@ -167,9 +124,67 @@ body {
     	width: 40vw;
     	height: 65vw;
 	}
+	#box_top_and_bottom{
+	    position: absolute;
+	    display: flex;
+	    flex-flow: column nowrap;
+	    justify-content: space-between;
+	    align-content: center;
+	    align-items: center;
+	    width:100vw;
+	    height:100vh;
+	    z-index: 2;
+	    top:0;
+	    left:0;
+	    overflow: hidden;
+	}
+	#top{
+	    width: 100vw;
+	    height: 18vw;
+	    position: absolute;
+	    top: -11vw;
+	    left:0;
+	}
+	#bottom{
+	    width: 100vw;
+	    height: 18vw;
+	    position: absolute;
+	    top: 90vh;
+	    left:0;
+	}	
+	#box_left_and_right{
+    	visibility: hidden;	
+    	width: 0vw;
+		height: 0vw;
+		position: absolute;
+	    top: 0;
+	    left:0;	
+	}
+	#left{
+		visibility: hidden;	
+    	width: 0vw;
+		height: 0vw;	
+	}
+	#right{
+    	visibility: hidden;	
+    	width: 0vw;
+		height: 0vw;	
+	}
 }
 
 @media only screen and (orientation: landscape) {
+	.M_E_T_A_box{
+        display: flex;
+        flex-shrink: 0;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        align-content: center;
+        align-items: stretch;
+        width:100vw;
+        height:100vh;
+        z-index: 2;
+
+    }
 	.box{
 	    display: flex;
 	    flex-flow: column nowrap;
@@ -178,118 +193,89 @@ body {
 	    align-items: center;
 	    width:100vw;
 	    height:100vh;
-	    z-index: 1;
+	    z-index: 2;
 	}
-
 	#b1{
 		width: 0vw;
     	height: 0vw;
 	}
-
+	#b2{
+	    z-index: 1;
+	}
 	#b3{
 		width: 0vw;
     	height: 0vw;
 	}
-
-	#about{
+	a{
 	    width:16vw;
 	    height:8vw;
+	}
+	#about{
 	    top: 15vh;
 	    left: 70vw;
 	    position: absolute;
 	}
-
 	#about_purp{
-	    width:16vw;
-	    height:8vw;
 	    top: 15vh;
 	    left: 70.2vw;
 	    position: absolute;
 	}
-
 	#buy_a_copy{
-	    width:16vw;
-	    height:8vw;
 	    top: 60vh;
 	    left: 20vw;
 	    position: absolute;
 	}
-
 	#buy_a_copy_purp{
-	    width:16vw;
-	    height:8vw;
 	    top: 60vh;
 	    left: 20.2vw;
 	    position: absolute;
 	}
-
 	#cast_and_crew{
-	    width:16vw;
-	    height:8vw;
 	    top: 20vh;
 	    left: 15vw;
 	    position: absolute;
 	}
-
 	#cast_and_crew_purp{
-	    width:16vw;
-	    height:8vw;
 	    top: 20vh;
 	    left: 15.2vw;
 	    position: absolute;
 	}
-
 	#contact{
-	    width:16vw;
-	    height:8vw;
 	    top: 40vh;
 	    left: 77vw;
 	    position: absolute;
 	}
-
 	#contact_purp{
-	    width:16vw;
-	    height:8vw;
 	    top: 39.5vh;
 	    left: 77.3vw;
 	    position: absolute;
 	}
-
 	#episodes{
-	    width:16vw;
-	    height:8vw;
+
 	    top: 70vh;
 	    left: 60vw;
 	    position: absolute;
 	}
-
 	#episodes_purp{
-	    width:16vw;
-	    height:8vw;
 	    top: 70.1vh;
 	    left: 60.4vw;
 	    position: absolute;
 	}
-X
 	#lets_begin{
-	    width:16vw;
-	    height:8vw;
-	}
-
-	#lets_begin_purp{
-	    width:16vw;
-	    height:8vw;
 	    top: 58.1vh;
-	    left: 41.8vw;
+	    left: 42vw;	   
 	    position: absolute;
 	}
-
+	#lets_begin_purp{
+	    top: 58.1vh;
+	    left: 41.8vw;	   
+	    position: absolute;
+	}
 	#hair{
     	width: 16vw;
     	height: 26vw;
 	}
-
-	.box_top_and_bottom{
+	#box_top_and_bottom{
 	    position: absolute;
 	    display: flex;
 	    flex-flow: column nowrap;
@@ -298,20 +284,26 @@ X
 	    align-items: center;
 	    width:100vw;
 	    height:100vh;
-	    z-index: 1;
+	    z-index: 0;
+	    top:0;
+	    left:0;
+	    overflow: hidden;
 	}
-
 	#top{
 	    width: 100vw;
-	    height: 40vw;
+	    height: 18vw;
+	    position: absolute;
+	    top: -9vw;
+	    left:0;
 	}
-
 	#bottom{
 	    width: 100vw;
-	    height: 40vw;
+	    height: 18vw;
+	    position: absolute;
+	    top: 78vh;
+	    left:0;
 	}
-
-	.box_left_and_right{
+	#box_left_and_right{
 	    position: absolute;
 	    display: flex;
 	    flex-flow: row nowrap;
@@ -320,17 +312,23 @@ X
 	    align-items: center;
 	    width:100vw;
 	    height:100vh;
-	    z-index: 1;
+	    z-index: 0;
+	    top:0;
+	    left:0;
+	    overflow: hidden;	    
 	}
-
 	#left{
-	    width: 40vw;
-	    height: 100vw;
+	    width: 33vh;
+	    height: 100vh;
+	    position: absolute;
+	    top: 0;
+	    left: -16vh;	   
 	}
-
 	#right{
-	    width: 40vw;
-	    height: 100vw;
+	    width: 33vh;
+	    height: 100vh;
+	    position: absolute;
+	    top: 0;
+	    left: 90vw;		    
 	}
 }
-
