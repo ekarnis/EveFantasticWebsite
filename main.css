@@ -275,7 +275,7 @@ a{
     	width: 16vw;
     	height: 26vw;
 	}
-	#box_top_and_bottom{
+	#box_top{
 	    position: absolute;
 	    display: flex;
 	    flex-flow: column nowrap;
@@ -283,12 +283,26 @@ a{
 	    align-content: center;
 	    align-items: center;
 	    width:100vw;
-	    height:100vh;
+	    height:18vh;
 	    z-index: 0;
 	    top:0;
 	    left:0;
 	    overflow: hidden;
 	}
+	#box_bottom{
+	    position: absolute;
+	    display: flex;
+	    flex-flow: column nowrap;
+	    justify-content: space-between;
+	    align-content: center;
+	    align-items: center;
+	    width:100vw;
+	    height:10vh;
+	    z-index: 0;
+	    top:90vh;
+	    left:0;
+	    overflow: hidden;
+	}	
 	#top{
 	    width: 100vw;
 	    height: 18vw;
@@ -300,7 +314,7 @@ a{
 	    width: 100vw;
 	    height: 18vw;
 	    position: absolute;
-	    top: 78vh;
+	    top: -9vh;
 	    left:0;
 	}
 	#box_left_and_right{
