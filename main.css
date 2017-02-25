@@ -84,30 +84,55 @@ a{
     a{
 	    width:26vw;
 	    height:13vw;     	
-    }    
+    } 
+	#about{
+	    top: 10vh;
+	    left: 71vw;
+	    position: absolute;   		
+	}       
 	#about_purp{
-	    top: 4vh;
+	    top: 10vh;
 	    left: 71.5vw;
 	    position: absolute;   		
 	}
+	#buy_a_copy{
+	    top: 37vh;
+	    left: 1.5vw;
+	    position: absolute;   		    
+	}		
 	#buy_a_copy_purp{
 	    top: 37vh;
+	    left: 2vw;
+	    position: absolute;   		    
+	}	
+	#cast_and_crew{
+	    top: 10vh;
 	    left: 1.5vw;
 	    position: absolute;   		    
 	}	
 	#cast_and_crew_purp{
-	    top: 37vh;
-	    left: 1.5vw;
+	    top: 10vh;
+	    left: 2vw;
+	    position: absolute;   		    
+	}	
+	#contact{
+	    top: 27vh;
+	    left: 72.5vw;
 	    position: absolute;   		    
 	}	
 	#contact_purp{
 	    top: 27vh;
-	    left: 72.5vw;
+	    left: 73vw;
 	    position: absolute;   		    
 	}
+	#episodes{
+	    top: 51vh;
+	    left: 72vw;
+	    position: absolute;   		    
+	}	
 	#episodes_purp{
 	    top: 51vh;
-	    left: 72.8vw;
+	    left: 72.5vw;
 	    position: absolute;   		    
 	}	
 	#lets_begin{

@@ -44,6 +44,14 @@ article{
 	display: flex;
     flex-shrink: 0;
 }
+#dawn_eve{
+	background-image: url("PNGs/cast/HeadShot_Dawn.png");
+	background-size: 100% 100%;
+}
+#dawn_eve:hover, #dawn_eve:active, #dawn_eve:focus {
+	background-image: url("PNGs/cast/Headshot_eve.png");
+	background-size: 100% 100%;
+}
 
 @media only screen and (orientation: portrait) {
 	#title{
@@ -74,7 +82,7 @@ article{
 	}
 	#box{
 		width: 80vw;
-		height:425vw;
+		height:380vw;
 	    flex-flow: row wrap;
 	    justify-content: center;
 	    align-content: center;
@@ -91,6 +99,10 @@ article{
 	}
 	article img{
 		width: 40vw;
+		height: 40vw;
+	}	
+	article div{
+		width: 50vw;
 		height: 40vw;
 	}	
 	article p{
@@ -130,8 +142,8 @@ article{
 	    height:15vh;
 	}
 	#box{
-		width: 80vw;
-		height:70vw;
+		width: 100vw;
+		height:95vw;
 	    flex-flow: row wrap;
 	    justify-content: center;
 	    align-content: center;
@@ -139,7 +151,7 @@ article{
 	}
 	article{
 		margin: 2vw;
-		width: 20vw;
+		width: 30vw;
 		height:20vw;
 		flex-flow: row nowrap;
 	    justify-content: center;
@@ -150,6 +162,10 @@ article{
 		width: 15vw;
 		height: 15vw;
 	}
+	article div{
+		width: 35vw;
+		height: 15vw;
+	}	
 	footer{
 	    width:100vw;
 	    height:40vh;
