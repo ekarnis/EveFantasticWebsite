@@ -52,6 +52,13 @@ article{
 	background-image: url("PNGs/cast/Headshot_eve.png");
 	background-size: 100% 100%;
 }
+#credit{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-flow: column;
+	text-align: center;
+}
 
 @media only screen and (orientation: portrait) {
 	#title{
@@ -142,10 +149,10 @@ article{
 	    height:15vh;
 	}
 	#box{
-		width: 100vw;
+		width: 70vw;
 		height:95vw;
 	    flex-flow: row wrap;
-	    justify-content: center;
+	    justify-content: flex-start;
 	    align-content: center;
 	    align-items: center;		
 	}
