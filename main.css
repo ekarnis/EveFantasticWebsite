@@ -7,6 +7,7 @@ body {
 }
 a{
 	background-size: 100% 100%;
+	z-index: 3;
 }
 
 #about{
@@ -240,62 +241,54 @@ a{
 	    left: 70vw;
 	    position: absolute;
 	}
-	#about_purp{
-	    top: 15vh;
-	    left: 70.2vw;
-	    position: absolute;
+	#about:hover {
+    	background-image: url("PNGs/home/EveFan_HOME_WashroomWall_layout_About2.png");
 	}
 	#buy_a_copy{
 	    top: 60vh;
 	    left: 20vw;
 	    position: absolute;
 	}
-	#buy_a_copy_purp{
-	    top: 60vh;
-	    left: 20.2vw;
-	    position: absolute;
-	}
+	#buy_a_copy:hover {
+    	background-image: url("PNGs/home/EveFan_HOME_WashroomWall_layout_Buy2.png");
+	}	
 	#cast_and_crew{
 	    top: 20vh;
 	    left: 15vw;
 	    position: absolute;
 	}
-	#cast_and_crew_purp{
-	    top: 20vh;
-	    left: 15.2vw;
-	    position: absolute;
-	}
+	#cast_and_crew:hover {
+    	background-image: url("PNGs/home/EveFan_HOME_WashroomWall_layout_Cast_Crew2.png");
+	}	
 	#contact{
 	    top: 40vh;
 	    left: 77vw;
 	    position: absolute;
 	}
-	#contact_purp{
-	    top: 39.5vh;
-	    left: 77.3vw;
-	    position: absolute;
-	}
+	#contact:hover {
+    	background-image: url("PNGs/home/EveFan_HOME_WashroomWall_layout_Contact2.png");
+	}	
 	#episodes{
-
 	    top: 70vh;
 	    left: 60vw;
 	    position: absolute;
 	}
-	#episodes_purp{
-	    top: 70.1vh;
-	    left: 60.4vw;
-	    position: absolute;
-	}
+	#episodes:hover {
+    	background-image: url("PNGs/home/EveFan_HOME_WashroomWall_layout_Epi2.png");
+	}	
 	#lets_begin{
 	    top: 58.1vh;
 	    left: 42vw;	   
 	    position: absolute;
 	}
 	#lets_begin_purp{
-	    top: 58.1vh;
-	    left: 41.8vw;	   
+	    width: 0vh;
+	    length: 0vw;	   
 	    position: absolute;
 	}
+	#lets_begin:hover {
+    	background-image: url("PNGs/home/EveFan_HOME_WashroomWall_layout_LetsBegin2.png");
+	}	
 	#hair{
     	width: 16vw;
     	height: 26vw;
