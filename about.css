@@ -28,8 +28,9 @@ h1{
 	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
 nav{
-	display: flex;
-	flex-shrink: 0;
+    display: flex;
+    flex-shrink: 0;
+	line-height: 2em;    
 }
 footer{
 	display: flex;
@@ -108,12 +109,12 @@ footer{
 		text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 	}
 	nav{
-		flex-flow: row wrap;
-		justify-content: space-around;
-		align-content: center;
-		align-items: center;
-		width:100vw;
-		height:15vh;
+	    flex-flow: row wrap;
+	    justify-content: space-around;
+	    align-content: center;
+	    align-items: center;
+	    width:100vw;
+	    height:20vh;
 	}
 	footer{
 		width:100vw;

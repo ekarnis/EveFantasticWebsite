@@ -27,6 +27,7 @@ h1{
 nav{
     display: flex;
     flex-shrink: 0;
+	line-height: 2em;    
 }
 footer{
     display: flex;
@@ -85,10 +86,10 @@ article{
 	    align-content: center;
 	    align-items: center;
 	    width:100vw;
-	    height:15vh;
+	    height:20vh;
 	}
 	#box{
-		width: 80vw;
+		width: 90vw;
 		height:380vw;
 	    flex-flow: row wrap;
 	    justify-content: center;
@@ -97,7 +98,7 @@ article{
 	}
 	article{
 		margin: 2vw;
-		width: 80vw;
+		width: 90vw;
 		height: 50vw;
 		flex-flow: row nowrap;
 	    justify-content: center;
