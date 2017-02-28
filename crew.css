@@ -24,6 +24,10 @@ h1{
 	color: #6ac4f3;
 	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
+h2{
+	color: #6ac4f3;
+	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
 nav{
     display: flex;
     flex-shrink: 0;
@@ -37,10 +41,6 @@ footer{
     align-items: center;
 }
 #box{
-	display: flex;
-    flex-shrink: 0;
-}
-article{
 	display: flex;
     flex-shrink: 0;
 }
@@ -60,10 +60,6 @@ article{
 	a{
 		font-size: 8vw;
 	}
-	h1{
-		color: #6ac4f3;
-		text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
-	}
 	nav{
 	    flex-flow: row wrap;
 	    justify-content: space-around;
@@ -75,27 +71,10 @@ article{
 	#box{
 		width: 80vw;
 		height:425vw;
-	    flex-flow: row wrap;
+	    flex-flow: column wrap;
 	    justify-content: center;
 	    align-content: center;
 	    align-items: center;		
-	}
-	article{
-		margin: 2vw;
-		width: 80vw;
-		height: 50vw;
-		flex-flow: row nowrap;
-	    justify-content: center;
-	    align-content: center;
-	    align-items: center;
-	}
-	article img{
-		width: 40vw;
-		height: 40vw;
-	}	
-	article p{
-		width: 50vw;
-		height: 40vw;
 	}		
 	footer{
 	    width:100vw;
@@ -117,10 +96,6 @@ article{
 	a{
 		font-size: 2.5vw;
 	}
-	h1{
-		color: #6ac4f3;
-		text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
-	}
 	nav{
 	    flex-flow: row nowrap;
 	    justify-content: space-around;
@@ -130,9 +105,9 @@ article{
 	    height:15vh;
 	}
 	#box{
-		width: 80vw;
-		height:70vw;
-	    flex-flow: row wrap;
+		width: 40vw;
+		height:300vw;
+	    flex-flow: column wrap;
 	    justify-content: center;
 	    align-content: center;
 	    align-items: center;		
