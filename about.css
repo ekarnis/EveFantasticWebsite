@@ -20,6 +20,9 @@ a{
 	color: #6ac4f3;
 	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
+p{
+	line-height: 1.5em;
+}
 h1{
 	color: #6ac4f3;
 	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
@@ -123,6 +126,9 @@ footer{
 	#synopsis{
 		margin: 5vw;
 	}
+	#howto{
+		margin: 5vw;
+	}
 }
 @media only screen and (orientation: landscape) {
 	#title{
@@ -144,6 +150,9 @@ footer{
 	}
 	body {
 		font-size: 1vw;
+	}
+	p{
+		font-size: 1.2vw;
 	}
 	a{
 		font-size: 2.5vw;
@@ -171,5 +180,8 @@ footer{
 	#synopsis{
 		margin: 0 5vw;		
 	}
+	#howto{
+		margin: 0 5vw;		
+	}	
 }
 
