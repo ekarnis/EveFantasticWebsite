@@ -20,8 +20,12 @@ a{
 	color: #6ac4f3;
 	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
+a:hover {
+    filter: brightness(0) invert(1);
+}
 p{
 	line-height: 1.5em;
+	font-family: helvetica;
 }
 h1{
 	color: #6ac4f3;
@@ -56,43 +60,46 @@ footer{
 	align-content: center;
 	align-items: center;
 }
-#about_text{
-	display: flex;
-	flex-shrink: 0;
-	flex-flow: column nowrap;
-	justify-content: space-around;
-	align-content: flex-start;
-	align-items: flex-start;
-}
 #synopsis{
 	display: flex;
 	flex-shrink: 0;
-	flex-flow: column nowrap;
 	justify-content: space-around;
-	align-content: flex-start;
-	align-items: flex-start;
+	align-content: center;
+	align-items: center;
+}
+#howto{
+	display: flex;
+	flex-shrink: 0;
+	justify-content: space-around;
+	align-content: center;
+	align-items: center;
 }
 @media only screen and (orientation: portrait) {
-	#about_img{
+	img{
 		width: 70vw;
 		height: 70vw;
 		margin: 0 auto;
 	}
+	#howto_img{
+		width: 70vw;
+		height: 40.5vw;
+		margin: 5vw auto;		
+	}	
 	#title{
 		margin: 5vw auto;
 		width: 90vw;
 		height: 45vw;
 	}	
-	#about{
+	#about, #synopsis, #howto{
 		margin: 2vw;
 		flex-flow: column nowrap;
 		justify-content: space-around reverse;
 	}
-	#about_text{
+	#text{
 		order: 0;
 		margin: 5vw;
 	}
-	#about_img{
+	#about_img, #synopsis_img, #howto_img{
 		order:1;
 	}	
 	#box{
@@ -137,18 +144,32 @@ footer{
 		height: 15vw;
 	}	
 	#about{
-		margin: 2vw;
 		flex-flow: row nowrap;
 	}
-	#about_img{
+	#synopsis{
+		flex-flow: row nowrap;
+	}
+	#howto{
+		flex-flow: row nowrap;
+	}	
+	img{
 		width: 20vw;
 		height: 20vw;
 		margin: 0 auto;
 	}
-	#about_text{
-		width: 50vw;
-		margin: 5vw;
+	#howto_img{
+		width: 26vw;
+		height: 15vw;
+		margin: 0 auto;
 	}
+	#about_text, #synopsis_text{
+		width: 50vw;
+		margin: 3vw 5vw;
+	}
+	#howto_text{
+		width: 44vw;
+		margin: 3vw 5vw;
+	}		
 	body {
 		font-size: 1vw;
 	}
@@ -157,6 +178,9 @@ footer{
 	}
 	a{
 		font-size: 2.5vw;
+	}
+	#buy{
+		font-size: 1.5vw;
 	}
 	h1{
 		color: #6ac4f3;
@@ -177,12 +201,6 @@ footer{
 	#footer_img{
 		width:15vw;
 		height:20vw;
-	}
-	#synopsis{
-		margin: 0 5vw;		
-	}
-	#howto{
-		margin: 0 5vw;		
 	}	
 }
 

@@ -20,6 +20,9 @@ a{
 	color: #6ac4f3;
 	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
+a:hover {
+    filter: brightness(0) invert(1);
+}
 h1{
 	color: #6ac4f3;
 	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
@@ -45,11 +48,19 @@ article{
 	display: flex;
     flex-shrink: 0;
 }
-#dawn_eve{
+#dawn{
 	background-image: url("PNGs/cast/HeadShot_Dawn.png");
 	background-size: 100% 100%;
 }
-#dawn_eve:hover, #dawn_eve:active, #dawn_eve:focus {
+#dawn:hover, #dawn:active, #dawn:focus {
+	background-image: url("PNGs/cast/Headshot_eve.png");
+	background-size: 100% 100%;
+}
+#eve{
+	background-image: url("PNGs/cast/Headshot_eve.png");
+	background-size: 100% 100%;
+}
+#eve:hover, #deve:active, #eve:focus {
 	background-image: url("PNGs/cast/Headshot_eve.png");
 	background-size: 100% 100%;
 }
