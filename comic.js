@@ -62,3 +62,23 @@ function disable_theatre_mode(){
 	}
 
 }	
+
+function setURLs(){
+	next = document.getElementsByClassName("next");
+	previous = document.getElementsByClassName("previous");
+
+	current = location.pathname.slice(6,8);
+	if(isNaN(current)){
+		current = current.substring(1);
+	}
+	current = parseInt(current);
+
+	if(current == 33) next_link = "comic" + String(current) + ".html";
+	else next_link = "comic" + String(current + 1) + ".html";
+	previous_link = "comic" + String(current - 1) + ".html";
+
+	for (var i = 0; i < next.length; i++) {
+		next[i].href = next_link;
+		previous[i].href = previous_link;			
+	}
+}

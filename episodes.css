@@ -121,8 +121,8 @@ footer{
 	    height:15vh;
 	}
 	#box{
-		width: 60vw;
-		height: 35vw;
+		width: 90vw;
+		height: 40vw;
 	    flex-flow: row wrap;
 	    justify-content: space-around;
 	    align-content: center;
@@ -130,8 +130,8 @@ footer{
 	}
 	article{
 		margin: 2vw;
-		width: 16vw;
-		height: 9vw;		
+		width: 24vw;
+		height: 13.5vw;		
 	}
 	iframe{
 		width: 100%;

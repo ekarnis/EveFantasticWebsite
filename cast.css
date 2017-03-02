@@ -48,23 +48,66 @@ article{
 	display: flex;
     flex-shrink: 0;
 }
-#dawn{
-	background-image: url("PNGs/cast/HeadShot_Dawn.png");
+.head{
 	background-size: 100% 100%;
 }
+.head:hover, .head:active, #head:focus {
+	background-size: 100% 52.7%;
+	background-repeat: no-repeat;	
+    background-position: center; 
+}
+#dawn{
+	background-image: url("PNGs/cast/HeadShot_Dawn.png");
+}
 #dawn:hover, #dawn:active, #dawn:focus {
-	background-image: url("PNGs/cast/Headshot_eve.png");
-	background-size: 100% 100%;
+	background-image: url("PNGs/cast/Dawn Still 2.jpg");
 }
 #eve{
 	background-image: url("PNGs/cast/Headshot_eve.png");
-	background-size: 100% 100%;
 }
-#eve:hover, #deve:active, #eve:focus {
-	background-image: url("PNGs/cast/Headshot_eve.png");
-	background-size: 100% 100%;
+#eve:hover, #eve:active, #eve:focus {
+	background-image: url("PNGs/cast/Eve Still.jpg");
 }
-#credit{
+
+#haley{
+	background-image: url("PNGs/cast/Headshot_Haily.png");
+}
+#haley:hover, #haley:active, #haley:focus {
+	background-image: url("PNGs/cast/Haley Still.jpg");
+}
+#leah{
+	background-image: url("PNGs/cast/headshot_Leah.png");
+}
+#leah:hover, #leah:active, #leah:focus {
+	background-image: url("PNGs/cast/Leah Still.jpg");
+}
+
+#lionel{
+	background-image: url("PNGs/cast/Headshot_Lionel.png");
+}
+#lionel:hover, #lionel:active, #lionel:focus {
+	background-image: url("PNGs/cast/Lionel Still.jpg");
+}
+#zach{
+	background-image: url("PNGs/cast/Headshot_Zach.png");
+}
+#zach:hover, #zach:active, #zach:focus {
+	background-image: url("PNGs/cast/Zach Still New.jpg");
+}
+
+#benedict{
+	background-image: url("PNGs/cast/Headshot_MsB.png");
+}
+#benedict:hover, #benedict:active, #benedict:focus {
+	background-image: url("PNGs/cast/Ms B Still 2.jpg");
+}
+#tom{
+	background-image: url("PNGs/cast/headshot_shafer.png");
+}
+#tom:hover, #tom:active, #tom:focus {
+	background-image: url("PNGs/cast/Shaeffer Still New 2.jpg");
+}
+.credit{
 	display:flex;
 	justify-content:center;
 	align-items:center;
@@ -101,9 +144,9 @@ article{
 	}
 	#box{
 		width: 90vw;
-		height:380vw;
+		height:420vw;
 	    flex-flow: row wrap;
-	    justify-content: center;
+	    justify-content: flex-start;
 	    align-content: center;
 	    align-items: center;		
 	}
@@ -186,6 +229,7 @@ article{
 		height: 15vw;
 	}	
 	footer{
+		margin: 5vw;
 	    width:100vw;
 	    height:40vh;
 	}

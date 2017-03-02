@@ -75,9 +75,9 @@ footer{
 	}
 	#box{
 		width: 80vw;
-		height:1600vw;
+		height:1100vw;
 	    flex-flow: column wrap;
-	    justify-content: center;
+	    justify-content: flex-start;
 	    align-content: center;
 	    align-items: center;		
 	}		
@@ -111,9 +111,9 @@ footer{
 	}
 	#box{
 		width: 40vw;
-		height:300vw;
+		height:200vw;
 	    flex-flow: column wrap;
-	    justify-content: center;
+	    justify-content: flex-start;
 	    align-content: center;
 	    align-items: center;		
 	}

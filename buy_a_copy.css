@@ -80,24 +80,30 @@ footer{
 		text-align: center;
 	}
 	#box{
-		width: 100vw;
-		height:60vw;
+		width: 90vw;
+		height:100vw;
+		flex-flow: column;
+		justify-content: space-around;
+		align-content: center;
+		align-items: center;			
 	}
+	#comic{
+		flex-flow: column;
+		justify-content: space-around;
+		align-content: center;
+		align-items: center;
+	}	
 	#comic_img{
-		width: 50vw;
-		height: 50vw;
-		margin: 0 auto;
-		position: absolute;
-		top: 120vw;
-		left: 5vw;		
+		width: 75vw;
+		height: 88vw;		
 	}	
 	#comic_text{
-		width: 40vw;
-		height: 20vw;
-		margin: 0 auto;
-		position: absolute;
-		top: 130vw;
-		left: 60vw;		
+		width: 50vw;
+		height: 20vw;	
+		margin: 0 auto;	
+		display: flex;
+		justify-content: center;
+		align-items: center;		
 	}
 	footer{
 		width:100vw;
@@ -133,23 +139,31 @@ footer{
 	}
 	#box{
 		width: 70vw;
-		height:25vw;
+		height:35vw;
+		flex-flow: column nowrap;
+		justify-content: space-around;
+		align-content: center;
+		align-items: center;	
 	}
+	#comic{
+
+	}	
 	#comic_img{
 		width: 20vw;
-		height: 20vw;
+		height: 26vw;
 		margin: 0 auto;
-		position: absolute;
-		top: 65vh;
-		left: 20vw;		
-	}	
+	}
 	#comic_text{
 		width: 20vw;
 		height: 20vw;
-		margin: 0 auto;
-		position: absolute;
-		top: 80vh;
-		left: 45vw;		
+		margin: 0 auto;	
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	#comic_text{
+		width: 20vw;
+		height: 100%;
 	}
 	footer{
 		width:100vw;
