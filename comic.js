@@ -1,5 +1,5 @@
 function enable_theatre_mode(){
-	var video_container=document.getElementById("video_container");	
+	var video_container=document.getElementsByClassName("video_container");	
 	var video=document.getElementById("video");	
 	var comic=document.getElementById("comic");		
 	var comic_container=document.getElementById("comic_container");		
@@ -11,9 +11,12 @@ function enable_theatre_mode(){
 
 		video.style.zIndex = "4";
 		video.style.pointerEvents = "auto";		
+		video.style.display = "initial"
 
 		comic_container.style.overflow = "initial";
 		comic.style.filter="brightness(0.2)"
+
+		video_container = video_container[0];
 
 		video_container.style.position="absolute";
 		video_container.style.zIndex = "4";	
@@ -30,7 +33,7 @@ function enable_theatre_mode(){
 	}
 }
 function disable_theatre_mode(){
-	var video_container=document.getElementById("video_container");	
+	var video_container=document.getElementsByClassName("video_container");	
 	var video=document.getElementById("video");	
 	var comic=document.getElementById("comic");		
 	var comic_container=document.getElementById("comic_container");		
@@ -43,15 +46,18 @@ function disable_theatre_mode(){
 
 	video.style.zIndex = "1";
 	video.style.pointerEvents = "none";		
+	video.style.display = "none"
 
 	comic_container.style.overflow = "hidden";
 	comic.style.filter="brightness(1)"
+
+	video_container = video_container[0];
 
 	video_container.style.position="relative";
 	video_container.style.zIndex = "2";	
 	if(window.innerWidth > window.innerHeight){					
 		video_container.style.top="-24vw";
-		video_container.style.left="18vw";	
+		video_container.style.left="8vw";	
 		video_container.style.width="40vw";
 		video_container.style.height="22.5vw";	
 	}else{

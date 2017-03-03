@@ -1,0 +1,22 @@
+
+@media only screen and (orientation: portrait) {
+	#thumb{
+		position: relative;
+		z-index: 2;
+		width: 27vw;
+		height: 27vw;
+		top: 7vw;
+		left: 23vw;	
+	}
+
+}
+@media only screen and (orientation: landscape) {
+	#thumb{
+		position: relative;
+		z-index: 2;
+		width: 16vw;
+		height: 16vw;
+		top: 5vw;
+		left: 24vw;	
+	}
+}
